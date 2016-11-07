@@ -3,6 +3,38 @@
 <head>
   <meta charset="UTF-8">
   <title>Document</title>
+
+  <style>
+      .row {
+          box-sizing: border-box;
+          display: flex;
+          flex-direction: row;
+          flex-wrap: nowrap;
+      }
+      .col {
+          box-sizing: border-box;
+          display: flex;
+          flex-direction: column;
+          flex-wrap: nowrap;
+      }
+      .cell {
+          box-sizing: border-box;
+          display: flex;
+          flex-grow: 1;
+
+          border: solid black 1px;
+      }
+
+      .col-0 {
+          width: 150px;
+      }
+      .col-1 {
+          width: 200px;
+      }
+      .col-2 {
+          width: 50px;
+      }
+  </style>
 </head>
 <body>
   <script src="dist/bundle.js"></script>
